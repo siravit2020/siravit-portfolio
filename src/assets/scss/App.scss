@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Nunito:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600&family=Prompt:wght@300;400;500;600&family=Satisfy&display=swap");
+.v-application {
+  [class*="text-"] {
+    font-family: "Barlow", sans-serif !important;
+  }
+  font-family: "Barlow", sans-serif !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #252b31;
+  --secondary-color: #5e6668c2;
+  --accent-color: #d49c6b;
+  --transparent-color: #ffffff00;
+  --appBar-color: #252b31ec;
+  --appBar-color-white: #ffffffec;
+
+  .siravit {
+    // color: white;
+    font-family: "Satisfy", cursive;
+  }
+
+  .content {
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .topic {
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: var(--promary-color);
+  }
+}
