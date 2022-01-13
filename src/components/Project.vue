@@ -422,7 +422,7 @@ export default {
             links: [
               {
                 title: "Github",
-                linkTo: "https://github.com/siravit2020/portfolio",
+                linkTo: "https://github.com/siravit2020/siravit-portfolio",
               },
             ],
 
