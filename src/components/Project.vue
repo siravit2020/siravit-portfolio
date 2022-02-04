@@ -57,6 +57,7 @@
               :src="require('@/assets/images/' + item.image)"
               class="image"
             />
+
             <div data-aos="fade-up" class="col-layout">
               <div class="text-sm-h4 text-h5 topic-project" v-if="item.title">
                 {{ item.title }}
@@ -352,7 +353,7 @@ export default {
               },
             ],
             tools: ["Android", "Kotlin"],
-            image: "android-movie.png",
+            image: "movie.png",
           },
           {
             title: "PaperNote",
@@ -380,7 +381,7 @@ export default {
               },
             ],
             tools: ["Android", "Kotlin", "SQLite"],
-            image: "todo-android.png",
+            image: "android-todo.png",
           },
           {
             title: "Libary Progress Dialog",

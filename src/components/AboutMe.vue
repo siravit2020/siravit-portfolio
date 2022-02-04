@@ -4,7 +4,7 @@
       <img
         data-aos="fade-down"
         data-aos-duration="600"
-        src="@/assets/images/siravit21.png"
+        src="@/assets/images/siravit.png"
         alt="Mai"
         style="object-fit: cover"
         class="image"

@@ -2,7 +2,10 @@
   <div class="containner">
     <div class="content">
       <div class="text-sm-h3 text-h4 topic" data-aos="fade-up">SKILL</div>
-      <div class="d-flex flex-sm-row flex-column" style="">
+      <div
+        class="d-flex flex-sm-row flex-column justify-sm-space-between"
+        style=""
+      >
         <div class="col-layout">
           <div v-for="(item, index) in skills" :key="index">
             <div
@@ -76,8 +79,8 @@ export default {
           "Flutter",
           "Android",
           "Vuetify",
-          "Burfy",
           "TypeORM",
+          "React.js",
           "Nest.js",
           "Node.js",
           "Vue.js",
@@ -108,6 +111,8 @@ export default {
           "Figma",
           "AdobeXD",
           "Codemagic",
+          "Sourcetree",
+          "Jira",
         ],
       },
       {
@@ -116,6 +121,7 @@ export default {
           "CI/CD",
           "Firebase Service",
           "Testing (UnitTest, IntegrationTest)",
+          "Git",
         ],
       },
     ],
@@ -141,7 +147,8 @@ export default {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 50%;
+
+  width: 48%;
 }
 .title {
   margin-bottom: 10px;
