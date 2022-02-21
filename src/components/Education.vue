@@ -34,14 +34,7 @@ export default {};
 .containner {
   margin-bottom: 180px;
 }
-.content {
-  padding: 0px 20px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
+
 .logo {
   width: 200px;
   height: 200px;

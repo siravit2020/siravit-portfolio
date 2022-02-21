@@ -11,7 +11,7 @@
         >
           <template v-slot:opposite>
             <div
-              :data-aos="i % 2 != 0 ? 'fade-left' : 'fade-right'"
+               data-aos="fade-up"
               class="text-sm-h6 text-subtitle font-weight-bold"
               v-text="item.year"
             ></div>
@@ -82,14 +82,7 @@ Do the tasks assigned by the mentor
 .container {
   margin-bottom: 160px;
 }
-.content {
-  padding: 0px 20px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .description {
   color: var(--secondary-color);
