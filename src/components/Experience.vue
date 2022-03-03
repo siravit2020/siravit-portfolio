@@ -58,7 +58,7 @@ Do the tasks assigned by the mentor
         title: "SCB10X (SkinX) part time",
         description: `Software Enginear`,
         subDescription: [
-          "Build UX/UI on Application SkinX with best performance and beauty",
+          "Build UX/UI on Application SkinX with best performance",
         ],
       },
 
@@ -68,7 +68,7 @@ Do the tasks assigned by the mentor
         title: "SCB10X (SkinX)",
         description: `Software Enginear`,
         subDescription: [
-          "Build UX/UI on Application SkinX with best performance and beauty",
+          "Build UX/UI on Application SkinX with best performance",
           "Build some feature on Application SkinX (Mobile Application, Backend)",
           "Build UX/UI on Web Doctor SkinX",
         ],
