@@ -402,10 +402,29 @@ export default {
         title: "Web",
         projectList: [
           {
-            title: "Skinx",
+            title: "SkinX",
+            subTitle: "(Frontend + Backend)",
+            links: [
+              {
+                title: "SkinX",
+                linkTo: "https://skinx.app/",
+              },
+            ],
+            description: "SkinX website",
+            tools: [
+              "Vue.js",
+              "Nest.js",
+              "JavaScript",
+              "TypeScript",
+              "Markdown",
+            ],
+            image: "skinx-landing.png",
+          },
+          {
+            title: "Skinx Doctor",
             subTitle: "(Frontend + Backend)",
 
-            description: "Web Application for doctor in SkinX",
+            description: "Web application for doctor in SkinX",
             tools: [
               "Vue.js",
               "Nest.js",

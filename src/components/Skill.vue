@@ -8,11 +8,7 @@
       >
         <div class="col-layout">
           <div v-for="(item, index) in skills" :key="index">
-            <div
-              data-aos="fade-up"
-              class="text-sm-h5 text-h6 title"
-              align="start"
-            >
+            <div data-aos="fade-up" class="text-sm-h5 text-h6 title">
               {{ item.title }}
             </div>
             <v-row no-gutters style="margin-bottom: 10px">
@@ -30,14 +26,14 @@
         </div>
         <div class="col-layout">
           <div v-for="(item, index) in skills2" :key="index">
-            <div data-aos="fade-up" class="text-h5 title" align="start">
+            <div data-aos="fade-up" class="text-sm-h5 text-h6 title">
               {{ item.title }}
             </div>
-            <v-row style="margin-bottom: 10px">
+             <v-row no-gutters style="margin-bottom: 10px">
               <div
                 data-aos="fade-up"
                 :data-aos-delay="i * 50"
-                class="text-body-1 tag"
+                class="text-sm-body-1 text-body-2 tag"
                 v-for="(item, i) in item.content"
                 :key="i"
               >
@@ -84,6 +80,7 @@ export default {
           "Nest.js",
           "Node.js",
           "Vue.js",
+          "Tailwind CSS",
         ],
       },
       {
@@ -96,12 +93,51 @@ export default {
       {
         title: "Database",
         content: [
-          "NoSql (Firebase Realtime,Firebase firestore)",
-          "Sql (MySql)",
+          "Firebase firestore",
+          "Firebase Realtime",
+          "MySQL",
+          "GCP SQL",
+        ],
+      },
+      {
+        title: "Clouds",
+        content: ["Firebase", "Google Cloud Platform"],
+      },
+      {
+        title: "Devops",
+        content: [
+          "Git",
+          "Docker",
+          "CI/CD",
+          "GCP Cloud Build",
+          "GCP Cloud Run",
+          "Codemagic",
         ],
       },
     ],
     skills2: [
+      {
+        title: "Microservices",
+        content: [
+          "Nx.dev",
+          "GCP Pub/Sub",
+          "GCP Cloud Tasks",
+          "Kafka",
+          "Saga Pattern",
+          "Messaging Broker",
+        ],
+      },
+      {
+        title: "Knowledge",
+        content: [
+          "RESTful API",
+          "Testing (UnitTest, IntegrationTest)",
+          "Analytics (Google Analytics)",
+          "Kafka",
+          "Saga Pattern",
+          "Messaging Broker",
+        ],
+      },
       {
         title: "Tools",
         content: [
@@ -113,15 +149,6 @@ export default {
           "Codemagic",
           "Sourcetree",
           "Jira",
-        ],
-      },
-      {
-        title: "Other",
-        content: [
-          "CI/CD",
-          "Firebase Service",
-          "Testing (UnitTest, IntegrationTest)",
-          "Git",
         ],
       },
     ],
@@ -147,7 +174,6 @@ export default {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
   width: 48%;
 }
 .title {
