@@ -29,7 +29,7 @@
             <div data-aos="fade-up" class="text-sm-h5 text-h6 title">
               {{ item.title }}
             </div>
-             <v-row no-gutters style="margin-bottom: 10px">
+            <v-row no-gutters style="margin-bottom: 10px">
               <div
                 data-aos="fade-up"
                 :data-aos-delay="i * 50"
@@ -136,6 +136,11 @@ export default {
           "Kafka",
           "Saga Pattern",
           "Messaging Broker",
+          "Google login API",
+          "Google Map API",
+          "Facebook login API",
+          "Line login API",
+          "Agora.io",
         ],
       },
       {
