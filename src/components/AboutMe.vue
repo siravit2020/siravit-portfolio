@@ -4,7 +4,7 @@
       <img
         data-aos="fade-down"
         data-aos-duration="600"
-        src="@/assets/images/siravit.png"
+        src="@/assets/images/siravit.jpg"
         alt="Mai"
         style="object-fit: cover"
         class="image"
@@ -41,9 +41,11 @@
             description
           "
         >
-          I am a software enginear specializing in mobile and frontend with
-          strong problemsolving skills and I can work with best practices and
-          best performance.
+          I'm software engineer with experience in application development.
+          Specializing in mobile(Flutter) and frontend with strong
+          problemsolving skills and I can work with best practices and best
+          performance. Skilled in self learning, multitasking and continuous
+          self improvement.
         </div>
         <div class="contacts">
           <v-btn

@@ -242,7 +242,7 @@ export default {
             image: "ecommerce-preview.png",
           },
           {
-            title: "SkinX Examination",
+            title: "Party Haan",
             subTitle: "(Mobile Application)",
             description:
               "Application Party Hann Clone (Examination when applying for a job with SkinX)",
@@ -402,11 +402,25 @@ export default {
         title: "Web",
         projectList: [
           {
-            title: "SkinX",
-            subTitle: "(Frontend + Backend)",
+            title: "Rakkar digital",
+            subTitle: "Full Stack",
             links: [
               {
-                title: "SkinX",
+                title: "website",
+                linkTo: "https://www.rakkardigital.com/",
+              },
+            ],
+            description:
+              "Rakkar Digital is a startup company backed by SCB 10X focusing in digital asset and blockchain space",
+            tools: ["Nuxt.js", "Firebase", "GCP", "CMS"],
+            image: "rakkar.png",
+          },
+          {
+            title: "SkinX",
+            subTitle: "Full Stack",
+            links: [
+              {
+                title: "website",
                 linkTo: "https://skinx.app/",
               },
             ],
@@ -422,7 +436,7 @@ export default {
           },
           {
             title: "Skinx Doctor",
-            subTitle: "(Frontend + Backend)",
+            subTitle: "Full Stack",
 
             description: "Web application for doctor in SkinX",
             tools: [

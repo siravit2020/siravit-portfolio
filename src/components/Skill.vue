@@ -67,6 +67,7 @@ export default {
           "HTML",
           "SCSS",
           "CSS",
+          "Solidity",
         ],
       },
       {
@@ -80,24 +81,23 @@ export default {
           "Nest.js",
           "Node.js",
           "Vue.js",
+          "Nuxt.js",
+          "React.js",
+          "Next.js",
           "Tailwind CSS",
         ],
       },
       {
         title: "Structure",
         content: [
-          "Design Pattern (MVC, MVP, MVVM)",
+          "Design pattern (MVC, MVP, MVVM, etc.)",
           "State management (Bloc, Provider, Riverpod, GetX)",
+          "SOLID design principles",
         ],
       },
       {
         title: "Database",
-        content: [
-          "Firebase firestore",
-          "Firebase Realtime",
-          "MySQL",
-          "GCP SQL",
-        ],
+        content: ["Firebase firestore", "Firebase Realtime", "MySQL"],
       },
       {
         title: "Clouds",
@@ -114,8 +114,6 @@ export default {
           "Codemagic",
         ],
       },
-    ],
-    skills2: [
       {
         title: "Microservices",
         content: [
@@ -127,6 +125,8 @@ export default {
           "Messaging Broker",
         ],
       },
+    ],
+    skills2: [
       {
         title: "Knowledge",
         content: [
@@ -141,6 +141,8 @@ export default {
           "Facebook login API",
           "Line login API",
           "Agora.io",
+          "Google play store",
+          "Apple store",
         ],
       },
       {
@@ -154,6 +156,14 @@ export default {
           "Codemagic",
           "Sourcetree",
           "Jira",
+        ],
+      },
+      {
+        title: "Others",
+        content: [
+          "Teamwork, multitasking, and attention to detail.",
+          "Experience with Agile.",
+          "development methodologies. Strong problem-solving and analytical skills.",
         ],
       },
     ],

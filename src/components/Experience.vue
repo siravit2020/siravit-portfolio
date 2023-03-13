@@ -2,7 +2,7 @@
   <div class="container">
     <div class="content">
       <div data-aos="fade-up" class="text-sm-h3 text-h4 topic">EXPERIENCE</div>
-      <v-timeline >
+      <v-timeline>
         <v-timeline-item
           v-for="(item, i) in years"
           :key="i"
@@ -20,10 +20,12 @@
             <div class="text-sm-h6 text-subtitle font-weight-bold">
               {{ item.title }}
             </div>
-            <div class="text-sm-body-1 text-body-2 font-weight-regular">
-              <div class="description">
-                {{ item.description }}
-              </div>
+            <div
+              class="description text-sm-body-1 text-body-2 font-weight-regular"
+            >
+              {{ item.description }}
+            </div>
+            <ul class="text-sm-body-1 text-body-2 font-weight-regular">
               <li
                 class="sub-description"
                 v-for="(item, index) in item.subDescription"
@@ -31,7 +33,7 @@
               >
                 {{ item }}
               </li>
-            </div>
+            </ul>
           </div>
         </v-timeline-item>
       </v-timeline>
@@ -48,80 +50,43 @@ export default {
         title: "MFEC Public Company Limited",
         description: `Flutter Developer (Internship)`,
         subDescription: [
-          "Build a mobile app with Flutter",
-          "Use State Management to manage the state of the app with Riverpod and Provider",
-          "Custom UI ,Animation with Flutter",
-          "Build Ecommerce app with Flutter",
-          "Build GG Fantacy(Clone) app with Flutter",
-          "Build Video Streaming app with Flutter",
-          "Research Librarys and use them to build the app",
-          "Use Firebase Authentication to login and register ",
-          "Use Firebase Analytics to track the usage of the app",
-          "Use Firebase Crashlytics to track the crash of the app",
-          "Use Firebase Cloud Messaging to send notification to the user",
-          "Use Firebase Crashlytics to track the crash of the app",
-          "Use Firebase Remote Config to manage the app's configuration",
-          "Use Firebase Cloud Functions to manage the app's functions",
-          "Use Firebase Test Lab to test the app",
-          "Learn about Line API and use it for authentication",
-          "Use Firebase Authentication to login with Line",
-          "Learn about Node.js and use it Custom JWT for Line Login",
-          "Use Google Maps API to get the location",
-          "Use MVVM Design Pattern to build the app",
-          "Learn about Test-Driven Development",
-          "Use Git Flow to manage the app's source code",
-          "Use Retrofit to call the API",
-          "Use Codemagic to build CI/CD pipeline for Flutter",
-          "Learn about Agora.io and use it to build the app",
-          "Use Google Admob to advertise the app",
-          "Writing custom platform-specific code for Android and iOS with Flutter",
-          "Automate Test with Dart",
+          "Build mobile apps, using state management libraries, creating custom UI and animations, and building e-commerce and video streaming app with flutter.",
+          "Researching and using various libraries and Third-party APIs.",
+          "Researching and using Firebase services.",
+          "Writing custom platform-specific code for Android and iOS with Flutter.",
+          "Automate Test with Dart.",
         ],
       },
       {
         year: "Jun 2021 - Aug 2021",
-        title: "SCB10X (SkinX) part time",
+        title: "SkinX (part time)",
         description: `Software Enginear`,
         subDescription: [
-          "Build a mobile app with Flutter",
-          "Custom UI ,Animation with Flutter",
-          "Use State Management to manage the state of the app with Bloc",
-          "Fetch data from API and use data model for get data and display result",
-          "Build UI Voucher deal with Flutter",
-          "Build UI Flash sale with Flutter",
-          "Build UI Clinic page deal with Flutter",
-          "Redesign SkinX stores with Flutter",
-          "Redesign Doctor page with Flutter",
-          "Redesign Drug page with Flutter",
-          "Edit T&C, Policy on HTML and display with Flutter",
+          "Developed and delivered features using Flutter.",
+          "Improve the performance of existing mobile applications.",
+          "Redesign of existing features.",
         ],
       },
-
       {
-        year: "Sep 2021 - Current",
-        title: "SCB10X (SkinX)",
+        year: "Jul 2022 - Nov 2022",
+        title: "Rakkar Digital (Outsource)",
         description: `Software Enginear`,
         subDescription: [
-          "Build a mobile app with Flutter",
-          "Custom UI ,Animation with Flutter",
-          "Use State Management to manage the state of the app with Bloc",
-          "Fetch data from API and use data model for get data and display result",
-          "Build API for SkinX app with Nest.js",
-          "Redesign SkinX app",
-          "Redesign SkinX stores with Flutter and Nest.js",
-          "Build Feature Referral with Nest.js and Flutter",
-          "Build Feature Universal search with Flutter",
-          "Build Feature Onboarding deal with Flutter",
-          "Build Feature FAQ with (Flutter, Nest.js, HTML)",
-          "Build Feature contents on web SkinX with Vue.js and Nest.js",
-          "Build Feature Wallet with Flutter and Nest.js",
-          "Build Feature notification calendar on web Doctor SkinX with Vue.js",
-          "Build Feature Watsons with Flutter",
-          "Build Feature Coin with Flutter",
-          "Build UI Cart page with Flutter",
-          "Build UI Promotion with Flutter",
-          "Use Google Maps API to get the location and use it for Watsons Feature",
-          "Setup CI/CD pipeline for SkinX web with GCP Cloud Build and Cloud Run",
+          "Build company website and cms using Nuxt.js.",
+          "Worked closely with product owner and UX/UI to gather requirements.",
+        ],
+      },
+      {
+        year: "Sep 2021 - Current",
+        title: "SkinX",
+        description: `Software Enginear`,
+        subDescription: [
+          "Designed and developed complex software systems using. Flutter, Vue.js, Nest.js.",
+          "Developed new features.",
+          "Worked closely with product owner and UX/UI to gather requirements and provide solutions.",
+          "Setup CI/CD pipeline for web and mobile.",
+          "Setup architecture and structure with best practices using Flutter.",
+          "Research and select effective tools for development.",
         ],
       },
     ],
@@ -141,6 +106,6 @@ export default {
 }
 .sub-description {
   color: var(--secondary-color);
-  white-space: pre-line;
+  list-style-position: outside;
 }
 </style>
